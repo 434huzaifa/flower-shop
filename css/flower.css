@@ -230,3 +230,33 @@ table {
 
 
 }
+footer{
+    margin-top: 128px;
+    padding-top: 128px;
+    padding-bottom: 128px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.footer-title{
+    color: #E55473;
+font-size: 48px;
+font-weight: 800;
+margin-bottom: 24px;
+
+}
+.footer-title2{
+    color: #ffffff;
+
+
+
+}
+.footer-rights{
+    margin-top: 32px;
+    color: rgba(255, 255, 255, 0.40);
+font-size: 16px;
+font-weight: 400;
+}
