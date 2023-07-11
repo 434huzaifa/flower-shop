@@ -56,6 +56,7 @@ header {
     font-size: 20px;
     color: #FFF;
     font-weight: 700;
+    border: 0;
 }
 
 .header-img {
@@ -143,6 +144,26 @@ table {
 .tr-img {
     display: flex;
     gap: 24px
+}
+
+.services{
+    margin-top: 128px;
+    font-size: 24px;
+    color: rgba(39, 39, 39, 0.80);
+}
+
+.services>ul{
+    list-style: none;
+}
+li{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+.list-img{
+width: 40px;
+height: 40px;
+margin-right: 10px;
 }
 
 .trait {
